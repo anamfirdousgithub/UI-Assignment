@@ -1,0 +1,909 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1100px;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+.width {
+  width: 100%;
+}
+.color-white {
+  color: #ffffff;
+}
+.background {
+  background-color: #f4f5f9;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-button {
+  background-color: #007fb9;
+}
+.color-button {
+  color: #007fb9;
+}
+.list ul li {
+  list-style: none;
+}
+.left ul li {
+  float: left;
+}
+.border {
+  border: none;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.align {
+  text-align: center;
+}
+.left {
+  float: left;
+}
+.display-inline-block {
+  display: inline-block;
+}
+.nav,
+.mobile-nav {
+  background-color: #015172;
+  height: 41px;
+  padding: 9px 0;
+}
+.nav-left {
+  width: 50%;
+}
+.nav-right {
+  width: 50%;
+  float: right;
+}
+.nav-right ul li {
+  float: right;
+}
+.nav-left ul li,
+.nav-right ul li {
+  margin: 0px 9px;
+}
+.login button {
+  padding: 16.5px 23px 10px 29px;
+  margin: -9.5px -9px -1px -22px;
+}
+.login i {
+  padding: 0px 10px 1px 1px;
+}
+.search input {
+  margin: -9.5px -1px 0px 0px;
+  height: 41px;
+  padding: 18px 14px;
+}
+.search i {
+  right: 256px;
+  top: 11px;
+  padding: 2px;
+}
+.logo {
+  padding: 8px;
+}
+.link ul li {
+  font-size: 18px;
+}
+.banner button {
+  left: 463.5px;
+  top: 300px;
+  padding: 12px 48px;
+}
+.banner img {
+  height: 510px;
+}
+.text {
+  font-size: 25px;
+  padding: 80px;
+}
+.text p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.text hr {
+  margin: 31px 0 24px 0;
+  padding: 2px;
+  width: 104px;
+  height: 4px;
+  margin-left: 428px;
+}
+/* Desktop icons */
+.icons {
+  height: 50px;
+}
+.margin {
+  margin: 9px;
+}
+.icons ul li {
+  font-size: 20px;
+  width: 20%;
+}
+.icons img {
+  width: 40px;
+  height: 40px;
+}
+/* desktop image&text */
+.imgtext {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+}
+.imgtext-data {
+  top: 67px;
+  right: 10px;
+  padding: 4px;
+  line-height: 2;
+  float: right;
+}
+.imgtext-data a {
+  text-decoration: none;
+}
+.imgtext-image {
+  display: inline-block;
+}
+/* desktop images */
+.box {
+  height: 570px;
+}
+.image {
+  position: relative;
+}
+.image img {
+  width: 33.33%;
+  float: left;
+}
+.box1 button {
+  top: 481px;
+  left: 31px;
+  padding: 13px 87px;
+}
+.box2 button {
+  top: 483px;
+  left: 397px;
+  padding: 12px 75px;
+}
+.box3 button {
+  top: 485px;
+  right: 28px;
+  padding: 12px 100px;
+}
+/* Desktop paragraph */
+.paragraph {
+  left: 102px;
+  height: 978px;
+  font-size: 30px;
+}
+.block4,
+.block3 {
+  padding: 80px;
+}
+.paragraph h2 {
+  margin-left: 21px;
+  width: 80%;
+  font-size: 35px;
+}
+.paragraph h3 {
+  font-size: 25px;
+  width: 70%;
+}
+.txt h3 {
+  font-size: 30px;
+  margin-left: 169px;
+}
+.paragraph p {
+  font-size: 17px;
+  margin-bottom: 153px;
+}
+/* four box */
+.h2-head1 h3 {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  margin: -109px 23px 18px 79px;
+  font-size: 21px;
+}
+.p-1 {
+  padding: 19px 14px 26px 19px;
+  margin: -150px 0px 65px 0px;
+  width: 25%;
+  height: 224px;
+}
+.h2-head1 h2 {
+  margin: 100px 0px 0px 200px;
+  text-align: left;
+}
+.p-1 h1 {
+  font-size: 50px;
+  margin-bottom: 3px;
+}
+.p-1 p {
+  font-size: 13px;
+}
+.p-1 img {
+  width: 216px;
+  height: 222px;
+  margin: -19px 0px -41px 0px;
+}
+.p-1 hr {
+  margin: 17px 129px 22px 90px;
+  line-height: 16px;
+  padding: 0px 19px 2px 8px;
+}
+.p-1 div p {
+  font-size: 9px;
+  margin-top: -152px;
+}
+/* three box */
+.h2-head2 h3 {
+  margin: 44px -251px;
+  width: 70%;
+  font-size: 21px;
+}
+.h2-head2 h2 {
+  margin: 100px 0px 0px 200px;
+  text-align: left;
+}
+.p-2 {
+  padding: 45px 14px 23px 19px;
+  line-height: 29px;
+  margin-top: -112px;
+  width: 33.33%;
+  height: 210px;
+}
+.p-2 h2 {
+  margin-left: 24px;
+}
+.p-2 img {
+  width: 312px;
+  height: 210px;
+  margin: -45px -1px 0px -17px;
+}
+.p-2 hr {
+  margin: 25px 148px 19px 124px;
+  width: -50px;
+  line-height: 16px;
+  margin: -8px 20px 4 px 6px;
+  padding: 0px 19px 2px 8px;
+  background-color: #a4f4f9;
+}
+.p-2 h1 {
+  font-size: 50px;
+  margin-bottom: 3px;
+}
+.p-2 p {
+  font-size: 14.5px;
+}
+/* 2 button  */
+.btn button {
+  left: 415px;
+  top: 2771px;
+  padding: 13px 47px;
+}
+.but a {
+  left: 629px;
+  font-size: 16px;
+  top: 2782px;
+  text-decoration: none;
+}
+/* footer para */
+.para ul li {
+  margin: 14px;
+  display: inline-block;
+}
+.para p {
+  font-size: 41px;
+  height: 32px;
+}
+.para b {
+  font-size: 25px;
+}
+/* footer */
+footer {
+  background-color: black;
+  padding: 20px;
+}
+.centered ul {
+  font-size: 18px;
+}
+.line-height {
+  line-height: 2;
+}
+.black {
+  color: grey;
+}
+.black ul li {
+  display: inline-block;
+}
+/* Mobile View*/
+.logo {
+  padding: 8px;
+}
+.mobile-logo {
+  border-bottom: 1px solid #eaeaeb;
+  text-align: right;
+  line-height: 70px;
+}
+.mobile-logo img {
+  float: left;
+  margin: -14px 2px 0px -293px;
+}
+.abc {
+  margin: 0 30px 0 0;
+}
+.abc a {
+  text-decoration: none;
+  clear: right;
+  margin: 0 10px;
+  line-height: 70px;
+  display: none;
+}
+label {
+  margin: -82px 15px 0 0;
+  font-size: 43px;
+}
+#toggel {
+  display: none;
+}
+/* Mobile view icon */
+.texticon {
+  width: 100%;
+  text-align: center;
+  height: 609px;
+  margin-top: -54px;
+  padding: 18px 7px 0px 6px;
+  position: relative;
+  background-color: white;
+}
+.texticon h3 {
+  margin-top: 46px;
+  font-size: 27px;
+}
+.texticon p {
+  margin-top: 19px;
+  font-size: 20px;
+}
+.texticon hr {
+  margin: 47px 91px 60px 103px;
+  padding: 0px 0px 2px 0;
+}
+.icon {
+  width: 100%;
+  margin-left: -65px;
+  margin-top: -40px;
+}
+.icon ul li {
+  list-style: none;
+  line-height: 2;
+  width: 73%;
+  float: right;
+  text-align: center;
+}
+.icon img {
+  width: 24%;
+  float: left;
+  margin: 15px 0 0 0;
+}
+/* image&text */
+/* Desktop Visibility for Desktop View  */
+/* nav */
+.nav {
+  display: block;
+}
+/* logo */
+.logo {
+  display: block;
+}
+.para hr {
+  display: none;
+}
+/* Mobile View for Desktop Visibility */
+.mobile-nav {
+  margin: 10px 20px 5px 6px;
+  display: none;
+}
+.mobile-banner {
+  display: none;
+}
+.mobile-searchlogin {
+  display: none;
+}
+label {
+  display: none;
+}
+.text {
+  display: block;
+}
+/* icons */
+.texticon {
+  display: none;
+}
+.imgtext {
+  width: 90%;
+  /* margin: auto; */
+  padding: 20px 0;
+}
+.banner img {
+  width: 100%;
+  height: 510px;
+}
+.banner button {
+  left: 463.5px;
+  top: 300px;
+  padding: 12px 48px;
+}
+.dropdown-nav {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .dropdown-nav{
+    display: block;
+    width: 25%;
+    position: relative;
+  }
+  .dropdown-navbar {
+    position: absolute;
+    border: none;
+    color: white;
+    background-color: #015172;
+  }
+  .nav-right {
+    display: block;
+    width: 72%;
+  }
+  .nav-left {
+    display: none;
+  }
+  .search li {
+    width: 50%;
+  }
+  .search i {
+    right: 127px;
+    top: 12px;
+  }
+  .paragraph {
+    height: 956px;
+  }
+  .paragraph h2 {
+    margin-left: 21px;
+    width: 64%;
+    font-size: 23px;
+  }
+  .p-1 {
+    height: 239px;
+  }
+  .p-1 img {
+    width: 134px;
+    height: 237px;
+    margin: -19px 0px -34px 0px;
+  }
+  .p-1 hr {
+    width: 28%;
+    margin-left: 38px;
+  }
+  .p-1 h1 {
+    font-size: 39px;
+    margin-bottom: 3px;
+  }
+  .h2-head2 h3 {
+    margin: 44px -109px;
+    width: 70%;
+    font-size: 21px;
+  }
+  .p-2 hr {
+    margin: 25px 148px 19px 72px;
+  }
+  .p-2 img {
+    width: 312px;
+    height: 211px;
+    margin: -46px 0 0 -24px;
+  }
+  .p-2 {
+    padding: 46px 14px 23px 19px;
+    line-height: 28px;
+    margin-top: -118px;
+    width: 33.33%;
+    height: 210px;
+  }
+  .p-2 img {
+    width: 208px;
+    height: 211px;
+    margin: -46px 0 0 -24px;
+  }
+  .but a {
+    left: 448px;
+    font-size: 17px;
+    top: 2548px;
+    text-decoration: none;
+  }
+  .btn button {
+    left: 216px;
+    top: 2537px;
+    padding: 13px 47px;
+  }
+  .txt h3 {
+    font-size: 30px;
+    margin-left: 9px;
+    margin-top: -169px;
+    width: 100%;
+    padding: 4px;
+  }
+  .text hr {
+    margin: 24px 0 24px 0;
+    padding: 2px;
+    width: 13%;
+    text-align: center;
+    height: 4px;
+    margin-left: 273px;
+  }
+  .imgtext-data {
+    top: 22px;
+    /* right: -52px; */
+    padding: 4px;
+    line-height: 2;
+    left: 381px;
+    float: right;
+  }
+  .imgtext-data a {
+    text-decoration: none;
+  }
+  .box1 button {
+    top: 336px;
+    left: 21px;
+    padding: 7px 41px;
+  }
+  .box2 button {
+    top: 336px;
+    left: 278px;
+    padding: 7px 28px;
+  }
+  .box3 button {
+    top: 337px;
+    right: 20px;
+    padding: 7px 53px;
+  }
+  .link ul li {
+    width: 100%;
+    display: inline;
+    padding: 15px;
+    margin: auto;
+  }
+  .banner img {
+    width: 100%;
+    height: 510px;
+  }
+  .banner button {
+    left: 320.5px;
+    top: 300px;
+    padding: 12px 21px;
+  }
+  .icons p {
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .dropdown-nav {
+    display: none;
+  }
+  /* desktop view  */
+  .nav {
+    display: none;
+  }
+  .banner {
+    display: none;
+  }
+  .link ul li {
+    display: none;
+  }
+  .text {
+    display: none;
+  }
+  /* Mobile View navbar */
+  .mobile-nav {
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
+  .left {
+    width: 25%;
+    border: none;
+    background-color: #015172;
+  }
+  .right ul li {
+    float: right;
+    list-style: none;
+    margin: 0 9px;
+  }
+  .right {
+    width: 75%;
+    float: right;
+  }
+  /*Mobile View Search&Login button*/
+  .mobile-searchlogin {
+    display: block;
+    position: relative;
+    width: 100%;
+    list-style: none;
+  }
+  .searchbox {
+    position: absolute;
+  }
+  .searchbox input {
+    position: absolute;
+    margin: -0.5px 7px 0px 0px;
+    height: 20px;
+    padding: 19.5px 26px;
+  }
+  .searchbox i {
+    margin: 14px 0 0 194px;
+  }
+  .loginbutton {
+    padding: 14px 0;
+    margin: -0.5px 25px 17px 224px;
+    position: absolute;
+    float: right;
+    width: 30%;
+  }
+  .loginbutton button {
+    float: right;
+  }
+  /* Desktop logo on Mobile view*/
+  .logo {
+    margin-top: 26px;
+  }
+  /* Mobile view Banner */
+  .mobile-banner {
+    display: block;
+    width: 100%;
+    top: -29px;
+  }
+  .mobile-banner img {
+    max-width: 320px;
+  }
+  .mobile-banner button {
+    padding: 16px 41px;
+    margin: -173px 3px 3px 75px;
+  }
+  /* Mobile view logo,link and Iconbar*/
+  .mobile-link {
+    display: block;
+    margin-top: -100px;
+    text-align: right;
+    height: 104px;
+    border-bottom: 1px solid #eaeaeb;
+  }
+  label {
+    display: block;
+    cursor: pointer;
+    float: right;
+    margin: -80px 3px 0 -34px;
+  }
+  .abc {
+    display: none;
+  }
+  .abc a {
+    display: block;
+    border-bottom: 1px solid #eaeaeb;
+    margin: 0;
+  }
+  #toggel:checked + .abc {
+    display: block;
+  }
+  /* Mobile view text&icon */
+
+  .texticon {
+    display: block;
+    width: 100%;
+  }
+  .icon {
+    display: block;
+  }
+  .icon ul li {
+    float: right;
+    margin: 4px;
+  }
+  /* Mobile view img&text */
+  .imgtext-data {
+    text-align: left;
+    padding: 10px;
+    float: none;
+    position: static;
+  }
+  .imgtext-data h2,
+  .imgtext-data p {
+    padding-bottom: 12px;
+  }
+  .imgtext-data {
+    padding: 17px;
+  }
+  .imgtext-data h2 {
+    font-size: 27px;
+  }
+  .imgtext-data p {
+    font-size: 19px;
+  }
+  .imgtext-data a {
+    text-decoration: none;
+    font-size: 22px;
+  }
+  .imgtext-image {
+    display: block;
+  }
+  .imgtext-image img {
+    width: 100%;
+  }
+  .imgtext {
+    width: 100%;
+    padding: 0;
+  }
+  /* mobile view box image */
+  .image img {
+    width: 100%;
+  }
+  .box1 button {
+    top: 420px;
+    left: 27px;
+    padding: 12px 68px;
+  }
+  .box2 button {
+    top: 920px;
+    left: 28px;
+    padding: 11px 54px;
+  }
+  .box3 button {
+    top: 1422px;
+    right: 23px;
+    padding: 12px 81px;
+  }
+  /* Paragrapgh */
+
+  .paragraph {
+    margin-top: 935px;
+    height: 2319px;
+    font-size: 30px;
+  }
+  .paragraph p {
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    margin-top: -40px;
+    margin-bottom: 194px;
+    padding: 21px;
+  }
+  .h2-head1 h3 {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    margin: -185px 23px 18px 15px;
+    font-size: 21px;
+  }
+  .txt h3 {
+    font-size: 27px;
+    width: 100%;
+    padding: 21px;
+    text-align: left;
+    margin-left: 0;
+  }
+  /* 2 button*/
+  .btn button {
+    left: 65px;
+    top: 5219px;
+    width: 61%;
+  }
+  .btn a {
+    left: 77px;
+    font-size: 18px;
+    top: 5279px;
+  }
+  /* Four block  */
+  .p-1 {
+    width: 100%;
+    height: 277px;
+    background-color: #f4f5f9;
+  }
+  .p-1 img {
+    width: 339px;
+    height: 249px;
+    margin-left: -39px;
+  }
+  .p-1 h2 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 19px;
+    margin-top: 13px;
+  }
+  .p-1 p {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .p-1 hr {
+    width: 17%;
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+  }
+  .p-1 h1 {
+    margin-bottom: 18px;
+  }
+  .p-1 div p {
+    font-size: 11px;
+    margin-top: -49px;
+  }
+  /* three block */
+  .p-2 {
+    width: 100%;
+    height: 239px;
+    margin-top: -4px;
+  }
+  .p-2 h2 {
+    margin-left: 24px;
+    width: 100%;
+    margin-top: 23px;
+  }
+  .p-2 hr {
+    width: 18%;
+    margin: auto;
+    text-align: center;
+  }
+  .p-2 img {
+    width: 320px;
+    height: 210px;
+    margin: -45px -1px 0px -19px;
+  }
+  .p-2 p {
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+  }
+  .p-2 h1 {
+    margin-bottom: 23px;
+  }
+  .h2-head2 h3 {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    margin: 731px 23px 18px 15px;
+    font-size: 21px;
+  }
+  .para {
+    background-color: #f4f5f9;
+  }
+  .para p b {
+    padding: 2px;
+  }
+  .para ul li {
+    width: 93%;
+    font-size: 19px;
+  }
+  .para p {
+    display: none;
+  }
+  .para hr {
+    display: block;
+    width: 100%;
+    padding: 0.3px;
+    background-color: gray;
+  }
+  /* footer */
+  .centered ul li {
+    display: block;
+  }
+  .block4,
+  .block3 {
+    padding: 0px;
+  }
+}
